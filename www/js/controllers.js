@@ -1,36 +1,72 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
+.controller('cityCtrl', function($scope) {
+
 })
 
-.controller('FriendsCtrl', function($scope, Friends) {
-  $scope.friends = Friends.all();
+.controller('favoritesCtrl', function($scope) {
+
 })
 
-.controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
-  $scope.friend = Friends.get($stateParams.friendId);
+.controller('locationCtrl', function($scope, $http) {
+
+
+    $http.get('Yardsales/sales.json')
+        .success (function(data) {
+
+        $scope.sales= data;
+
+    }).error(function(){
+        alert("error");
+    });
+
+ })
+
+
+.controller('provoCtrl', function($scope, $http) {
+
+
+        $http.get('Yardsales/provo.json')
+            .success(function (data) {
+
+            $scope.sales = data;
+
+        }).error(function () {
+                alert("error");
+            });
+
 })
 
-.controller('AccountCtrl', function($scope) {
+
+.controller('oremCtrl', function($scope, $http) {
+
+
+    $http.get('Yardsales/orem.json')
+        .success (function(data) {
+
+        $scope.sales= data;
+
+    }).error(function(){
+            alert("error");
+        });
+
+
+
 })
 
-.controller('locationCtrl', function($scope) {
 
-        $scope.locations = [
-            {City: 'Provo'},
-            {City: 'Orem'},
-            {City: 'Springville'},
-            {City: 'American Fork'}
-        ];
+.controller('americanforkCtrl', function($scope, $http) {
 
-        return {
-            all: function() {
-                return locations;
-            },
-            get: function(City) {
-                // Simple index lookup
-                return locations [City];
-            }
-        }
-});
 
+    $http.get('Yardsales/americanfork.json')
+        .success (function(data) {
+
+        $scope.sales= data;
+
+    }).error(function(){
+            alert("error");
+        });
+
+
+
+})

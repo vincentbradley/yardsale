@@ -1,0 +1,19 @@
+<ion-view title="Cities">
+
+
+  <ion-content class="padding">
+    <h1>Choose your area</h1>
+
+      <ion-list ng-controller="locationCtrl">
+          <ion-item ng-repeat="sale in sales">
+              <a href="{{sale.url}}">{{sale.City}}</a>
+
+
+          </ion-item>
+      </ion-list>
+  </ion-content>
+
+
+
+
+</ion-view>

@@ -1,13 +1,18 @@
 [
     {
-        "sales":[
-            {
-                "firstName":"Vincent",
-                "address":"Price",
-                "picture":"img/studentPictures/noPhoto.jpg",
-                "Date":"Senior"
-            }
+        "City":"Provo",
+        "url": "#/tab/provo"
 
-        ]
+    },
+
+    {
+        "City":"Orem",
+        "url": "#/tab/orem"
+    },
+
+    {
+        "City":"American Fork",
+        "url": "#/tab/americanfork"
     }
+
 ]
