@@ -1,16 +1,19 @@
 [
     {
+
         "City":"Provo",
         "url": "#/tab/provo"
 
     },
 
     {
+
         "City":"Orem",
         "url": "#/tab/orem"
     },
 
     {
+
         "City":"American Fork",
         "url": "#/tab/americanfork"
     }

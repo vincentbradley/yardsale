@@ -1,15 +1,17 @@
 [
     {
-        "City": "AmericanFork",
-        "url": "#/tab/americanfork",
+        "title": "Sale, Sale, Sale!",
         "address":"This will be an address"
 
     },
 
     {
+        "title": "Everything On Sale Cheap!",
         "address": "Dont want to make up an address"
     },
+
     {
+        "title": "Everything On Sale Cheap!",
         "address": "AAAADDDDRRRESSSSS"
     }
 

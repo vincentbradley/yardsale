@@ -1,72 +1,73 @@
 angular.module('starter.controllers', [])
 
-.controller('cityCtrl', function($scope) {
+    .controller('cityCtrl', function($scope) {
 
-})
+    })
 
-.controller('favoritesCtrl', function($scope) {
+    .controller('favoritesCtrl', function($scope) {
 
-})
+    })
 
-.controller('locationCtrl', function($scope, $http) {
-
-
-    $http.get('Yardsales/sales.json')
-        .success (function(data) {
-
-        $scope.sales= data;
-
-    }).error(function(){
-        alert("error");
-    });
-
- })
+    .controller('locationCtrl', function($scope, $http) {
 
 
-.controller('provoCtrl', function($scope, $http) {
+        $http.get('Yardsales/sales.json')
+            .success (function(data) {
+
+            $scope.sales= data;
+
+        }).error(function(){
+                alert("error");
+            });
+
+    })
+
+
+    .controller('provoCtrl', function($scope, $http) {
 
 
         $http.get('Yardsales/provo.json')
             .success(function (data) {
 
-            $scope.sales = data;
+                $scope.sales = data;
 
-        }).error(function () {
+            }).error(function () {
                 alert("error");
             });
 
-})
+    })
 
 
-.controller('oremCtrl', function($scope, $http) {
+    .controller('oremCtrl', function($scope, $http) {
 
 
-    $http.get('Yardsales/orem.json')
-        .success (function(data) {
+        $http.get('Yardsales/orem.json')
+            .success (function(data) {
 
-        $scope.sales= data;
+            $scope.sales= data;
 
-    }).error(function(){
-            alert("error");
-        });
-
-
-
-})
-
-
-.controller('americanforkCtrl', function($scope, $http) {
-
-
-    $http.get('Yardsales/americanfork.json')
-        .success (function(data) {
-
-        $scope.sales= data;
-
-    }).error(function(){
-            alert("error");
-        });
+        }).error(function(){
+                alert("error");
+            });
 
 
 
-})
+    })
+
+
+    .controller('americanforkCtrl', function($scope, $http) {
+
+
+        $http.get('Yardsales/americanfork.json')
+            .success (function(data) {
+
+            $scope.sales= data;
+
+        }).error(function(){
+                alert("error");
+            });
+
+
+
+    })
+

@@ -6,8 +6,9 @@
 
         <body>
         <ion-list id="availableSales" ng-show="sales">
-            <ion-item ng-repeat="address in sales">
-                <div class="address">{{address.address}}</div>
+            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in sales">
+                <div class="title">{{yardInfo.title}}</div>
+                <div class="address">{{yardInfo.address}}</div>
             </ion-item>
 
 

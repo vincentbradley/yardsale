@@ -2,14 +2,18 @@
     {
         "City": "Provo",
         "url": "#/tab/provo",
+        "title": "Everything On Sale Cheap!",
         "address":"321E 100S"
 
     },
 
     {
+        "title": "We're selling our stuff",
         "address": "253E 200S"
     },
+
     {
+        "title": "Yardsale Starts Tuesday",
         "address": "498E 100S"
     }
 

@@ -1,15 +1,16 @@
 [
     {
-        "City": "Orem",
-        "url": "#/tab/orem",
+        "title": "Starts on Wednesday 9/14",
         "address":"603N 1025W"
 
     },
 
     {
+        "title": "Everything Must Go",
         "address": "800N State St."
     },
     {
+        "title": "Yardsale",
         "address": "1600N 1000W"
     }
 
