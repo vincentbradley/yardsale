@@ -8,6 +8,7 @@ angular.module('starter.controllers', [])
 
     })
 
+
     .controller('locationCtrl', function($scope, $http) {
 
 
@@ -29,7 +30,7 @@ angular.module('starter.controllers', [])
         $http.get('Yardsales/provo.json')
             .success(function (data) {
 
-                $scope.sales = data;
+                $scope.provo = data;
 
             }).error(function () {
                 alert("error");
@@ -44,7 +45,7 @@ angular.module('starter.controllers', [])
         $http.get('Yardsales/orem.json')
             .success (function(data) {
 
-            $scope.sales= data;
+            $scope.orem= data;
 
         }).error(function(){
                 alert("error");
@@ -61,7 +62,7 @@ angular.module('starter.controllers', [])
         $http.get('Yardsales/americanfork.json')
             .success (function(data) {
 
-            $scope.sales= data;
+            $scope.americanfork= data;
 
         }).error(function(){
                 alert("error");
