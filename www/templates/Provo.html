@@ -7,9 +7,9 @@
         <body>
         <!-- Needs ng repeat-->
 
-            <ion-item ng-repeat="yardInfo in provo" >
+            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in provo" >
 
-                <div class="title" a href=""><h1>{{yardInfo.title}}</h1></div>
+                <div class="title" href=""><h1>{{yardInfo.title}}</h1></div>
                 <div class="address"><h2>{{yardInfo.address}}</h2></div>
                 <div class="photo"><img src="{{yardInfo.picture}}" ></div>
 

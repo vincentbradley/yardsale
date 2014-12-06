@@ -1546,7 +1546,7 @@ function($ionicLoadingConfig, $ionicBody, $ionicTemplateLoader, $ionicBackdrop, 
  *
  * - This example assumes your modal is in your main index file or another template file. If it is in its own
  * template file, remove the script tags and call it by file name.
- * 
+ *
  * @usage
  * ```html
  * <script id="my-modal.html" type="text/ng-template">
@@ -3359,7 +3359,7 @@ IonicModule
   /**
    * @ngdoc method
    * @name $ionicSlideBoxDelegate#start
-   * @description Start sliding again if the slideBox was stopped. 
+   * @description Start sliding again if the slideBox was stopped.
    */
   'start',
   /**
@@ -6197,10 +6197,10 @@ IonicModule
  * Note: If you use ionHeaderBar in combination with ng-if, the surrounding content
  * will not align correctly.  This will be fixed soon.
  *
- * @param {string=} align-title Where to align the title. 
+ * @param {string=} align-title Where to align the title.
  * Available: 'left', 'right', or 'center'.  Defaults to 'center'.
  * @param {boolean=} no-tap-scroll By default, the header bar will scroll the
- * content to the top when tapped.  Set no-tap-scroll to true to disable this 
+ * content to the top when tapped.  Set no-tap-scroll to true to disable this
  * behavior.
  * Available: true or false.  Defaults to false.
  *
@@ -7295,7 +7295,7 @@ IonicModule.constant('$ionicNavBarConfig', {
  * {@link ionic.directive:ionNavButtons}.
  *
  * Add an [animation class](/docs/components#animations) to the element via the
- * `animation` attribute to enable animated changing of titles 
+ * `animation` attribute to enable animated changing of titles
  * (recommended: 'nav-title-slide-ios7').
  *
  * Note that the ion-nav-bar element will only work correctly if your content has an
@@ -7684,23 +7684,7 @@ function( $ionicViewService,   $state,   $compile,   $controller,   $animate) {
         // to derive our own qualified view name, then hang our own details
         // off the DOM so child directives can find it.
         var parent = element.parent().inheritedData('$uiView');
-        if (name.indexOf('@') < 0) name  = name + '@' + ((parent && parent.state) ? parent.state.name : '');
-        var view = { name: name, state: null };
-        element.data('$uiView', view);
-
-        var eventHook = function() {
-          if (viewIsUpdating) return;
-          viewIsUpdating = true;
-
-          try { updateView(true); } catch (e) {
-            viewIsUpdating = false;
-            throw e;
-          }
-          viewIsUpdating = false;
-        };
-
-        scope.$on('$stateChangeSuccess', eventHook);
-        // scope.$on('$viewContentLoading', eventHook);
+        if (name.indexOf('ook);
         updateView(false);
 
         function updateView(doAnimate) {
@@ -7877,7 +7861,7 @@ IonicModule
  * <ion-radio ng-model="choice" ng-value="'B'">Choose B</ion-radio>
  * <ion-radio ng-model="choice" ng-value="'C'">Choose C</ion-radio>
  * ```
- * 
+ *
  * @param {string=} name The name of the radio input.
  * @param {expression=} value The value of the radio input.
  * @param {boolean=} disabled The state of the radio input.
