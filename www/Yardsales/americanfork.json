@@ -1,18 +1,21 @@
 [
     {
+        "picture":"img/salePictures/pic1.jpg",
         "title": "Sale, Sale, Sale!",
-        "address":"This will be an address"
+        "address":"603 South 1093 East"
 
     },
 
     {
-        "title": "Everything On Sale Cheap!",
-        "address": "Dont want to make up an address"
+        "picture":"img/salePictures/pic2.jpeg",
+        "title": "Everything On Sale!",
+        "address": "500 South State"
     },
 
     {
-        "title": "Everything On Sale Cheap!",
-        "address": "AAAADDDDRRRESSSSS"
+        "picture":"img/salePictures/pic3.jpeg",
+        "title": "First Come First Serve!",
+        "address": "198 North 1096 West"
     }
 
 

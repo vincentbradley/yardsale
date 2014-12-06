@@ -1,18 +1,19 @@
 [
     {
-        "City": "Provo",
-        "url": "#/tab/provo",
+        "picture":"img/salePictures/pic1.jpg",
         "title": "Everything On Sale Cheap!",
         "address":"321E 100S"
 
     },
 
     {
+        "picture":"img/salePictures/pic2.jpeg",
         "title": "We're selling our stuff",
         "address": "253E 200S"
     },
 
     {
+        "picture":"img/salePictures/pic3.jpeg",
         "title": "Yardsale Starts Tuesday",
         "address": "498E 100S"
     }
