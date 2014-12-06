@@ -6,9 +6,10 @@
 
         <body>
         <ion-list>
-            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in orem">
+            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in orem  | filter:filterFunction | orderBy: 'date' ">
                 <div class="title"><h1>{{yardInfo.title}}</h1></div>
-                <div class="address"><h2>{{yardInfo.address}}</h2></div>
+                <div class="date">Date: {{yardInfo.date}}</div>
+                <div class="address">Address: {{yardInfo.address}}</div>
             </ion-item>
 
 

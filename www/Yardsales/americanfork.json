@@ -2,20 +2,23 @@
     {
         "picture":"img/salePictures/pic1.jpg",
         "title": "Sale, Sale, Sale!",
-        "address":"603 South 1093 East"
+        "address":"603 South 1093 East",
+        "date": "December 12, 2014"
 
     },
 
     {
         "picture":"img/salePictures/pic2.jpeg",
         "title": "Everything On Sale!",
-        "address": "500 South State"
+        "address": "500 South State",
+        "date": "December 15, 2014"
     },
 
     {
         "picture":"img/salePictures/pic3.jpeg",
         "title": "First Come First Serve!",
-        "address": "198 North 1096 West"
+        "address": "198 North 1096 West",
+        "date": "December 11, 2014"
     }
 
 

@@ -1,17 +1,20 @@
 [
     {
         "title": "Starts on Wednesday",
-        "address":"603N 1025W"
+        "address":"603N 1025W",
+        "date": "December 10, 2014"
 
     },
 
     {
         "title": "Everything Must Go",
-        "address": "800N State St."
+        "address": "800N State St.",
+        "date": "December 1, 2014"
     },
     {
         "title": "Yardsale",
-        "address": "1600N 1000W"
+        "address": "1600N 1000W",
+        "date": "December 12, 2014"
     }
 
 

@@ -7,12 +7,13 @@
         <body>
         <!-- Needs ng repeat-->
 
-            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in provo" >
-
-                <div class="title" href=""><h1>{{yardInfo.title}}</h1></div>
-                <div class="address"><h2>{{yardInfo.address}}</h2></div>
-                <div class="photo"><img src="{{yardInfo.picture}}" ></div>
-
+            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in provo | filter:filterFunction | orderBy: 'date' " >
+                <ul>
+                <li><h1>{{yardInfo.title}}</h1></li>
+                <li class="date">Date: {{yardInfo.date}}</li>
+                <li class="address">Address: {{yardInfo.address}}</li>
+                <li class="photo"><img src="{{yardInfo.picture}}" ></li>
+                </ul>
             </ion-item>
 
 

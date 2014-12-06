@@ -72,3 +72,7 @@ angular.module('starter.controllers', [])
 
     })
 
+    .controller('filterFunction', function($scope) {
+        return element.name.match() ? true : false;
+
+    })
