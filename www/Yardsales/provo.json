@@ -1,7 +1,7 @@
 [
     {
-        "picture":"img/salePictures/pic1.jpg",
-        "title": "Everything On Sale Cheap!",
+        "picture":"img/salePictures/images-1.jpeg",
+        "title": "Everything On Sale!",
         "address":"321E 100S",
         "date": "December 12, 2014"
 
@@ -11,7 +11,7 @@
         "picture":"img/salePictures/pic2.jpeg",
         "title": "Yardsale Starts Tuesday",
         "address": "253E 200S",
-        "date": "December 12, 2014"
+        "date": "December 16, 2014"
     },
 
     {

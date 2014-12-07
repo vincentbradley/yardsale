@@ -19,5 +19,21 @@ $dark:                            #444 !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
+$positive: #53922B !default;
 @import "www/lib/ionic/scss/ionic";
 
+
+
+
+#sales
+
+.photo img {
+  align: right;
+  margin-right: .5em;
+  height: 80px;
+}
+
+.date {
+  color: $grey;
+  font-size: .85em;
+}

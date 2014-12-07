@@ -6,11 +6,13 @@
 
         <body>
 
-            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in americanfork | filter:filterFunction | orderBy: 'date' ">
-                <div class="title"><h1>{{yardInfo.title}}</h1></div>
-                <div class="date">Date: {{yardInfo.date}}</div>
-                <div class="address">Address: {{yardInfo.address}}</div>
-                <div class="photo"><img src="{{yardInfo.picture}}" ></div>
+            <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in americanfork | filter:saleOrder | orderBy: 'date' ">
+                <div style="text-decoration:underline;"><h1>{{yardInfo.title}}</h1></div>
+                <div class="photo" style = "PADDING-RIGHT: 5px; PADDING-TOP: 10px; float:left "><img src="{{yardInfo.picture}}" height="110" width="160"></div>
+                <div style="PADDING-TOP: 7px;">Date:</div>
+                <div class="date" style = " color:black;  font-size: 25px;">{{yardInfo.date}}</div><br>
+                <div>Address: </div>
+                <div class="address" style = "color:black;  font-size: 25px;">{{yardInfo.address}}</div>
             </ion-item>
 
 
