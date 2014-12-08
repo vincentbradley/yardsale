@@ -1,18 +1,23 @@
 
+
 <ion-tabs class="tabs-icon-top tabs-assertive">
 
 
   <!-- Yard Sales Tab -->
-  <ion-tab title="Yard Sales" icon="icon ion-home" href="#/tab/dash">
+  <ion-tab title="Home" icon="icon ion-home" href="#/tab/dash">
     <ion-nav-view name="tab-dash"></ion-nav-view>
   </ion-tab>
 
   <!-- Yard Sales Tab -->
-  <ion-tab title="Current Sales" icon="icon ion-heart" href="#/tab/account">
+  <ion-tab title="Sales" icon="icon ion-heart" href="#/tab/account">
     <ion-nav-view name="tab-account"></ion-nav-view>
   </ion-tab>
 
-
+    <ion-tab ng-controller="submitCtrl" title="Submit Yardsale" icon="icon ion-heart" ng-click="showSubmit()">
+        <ion-nav-view name="submitSale"></ion-nav-view>
+    </ion-tab>
 
 
 </ion-tabs>
+
+
