@@ -111,3 +111,6 @@ angular.module('starter.controllers', [])
         };
 
     });
+$scope.openModal = function () {
+    $scope.modal.show();
+};

@@ -7,7 +7,7 @@
         <body>
 
             <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in americanfork | filter:saleOrder | orderBy: 'date' ">
-                <div style="text-decoration:underline; color:black; font-size: 25px;"><h1>{{yardInfo.title}}</h1></div>
+                <div style="text-decoration:underline; color:black; font-size: 25px;">{{yardInfo.title}}</div>
                 <div class="photo" style = "PADDING-RIGHT: 5px; PADDING-TOP: 10px; float:left "><img src="{{yardInfo.picture}}" height="100" width="100"></div>
                 <div style="PADDING-TOP: 7px;">Date:</div>
                 <div class="date" style = " color:black;  font-size: 20px;">{{yardInfo.date}}</div><br>
