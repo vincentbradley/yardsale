@@ -8,7 +8,9 @@
         $ sudo npm install -g ionic
         
       install grunt [http://gruntjs.com/installing-grunt]
+
       install bower [http://bower.io]
+      
       install node.js [http://nodejs.org]
 
 2. **Clone Git Repo onto desktop**
