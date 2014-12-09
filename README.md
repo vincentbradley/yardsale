@@ -1,17 +1,11 @@
 #App for finding yardsale in your area
 
-1. **Requires node, ionic, cordova, Grunt, and Bower services**
+1. **Requires ionic and cordova services**
       install cordova and ionic framework [http://ionicframework.com/docs/guide/installation.html]
       
         $ sudo npm install -g cordova
         
         $ sudo npm install -g ionic
-        
-      install grunt [http://gruntjs.com/installing-grunt]
-
-      install bower [http://bower.io]
-      
-      install node.js [http://nodejs.org]
 
 2. **Clone Git Repo onto desktop**
      
