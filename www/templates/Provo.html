@@ -9,12 +9,12 @@
         <ion-list id="sales">
             <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in provo | filter:saleOrder | orderBy: 'date' " >
 
-                <div style="text-decoration:underline;"><h1>{{yardInfo.title}}</h1></div>
-                <div class="photo" style = "PADDING-RIGHT: 5px; PADDING-TOP: 10px; float:left "><img src="{{yardInfo.picture}}" height="110" width="160"></div>
+                <div style="text-decoration:underline; color:black; font-size: 25px;">{{yardInfo.title}}</div>
+                <div class="photo" style = "PADDING-RIGHT: 5px; PADDING-TOP: 10px; float:left "><img src="{{yardInfo.picture}}" height="100" width="100"></div>
                 <div style="PADDING-TOP: 7px;">Date:</div>
-                <div class="date" style = " color:black;  font-size: 25px;">{{yardInfo.date}}</div><br>
+                <div class="date" style = " color:black;  font-size: 20px;">{{yardInfo.date}}</div><br>
                 <div>Address: </div>
-                <div class="address" style = "color:black;  font-size: 25px;">{{yardInfo.address}}</div>
+                <div class="address" style = "color:black;  font-size: 20px;">{{yardInfo.address}}</div>
 
 
             </ion-item>
