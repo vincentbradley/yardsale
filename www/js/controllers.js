@@ -77,6 +77,8 @@ angular.module('starter.controllers', [])
 
     })
 
+
+
     .controller('submitCtrl',function($scope, $ionicPopup) {
 
         //Pop Up for new sale
@@ -86,6 +88,7 @@ angular.module('starter.controllers', [])
 
             var salePopup = $ionicPopup.show({
                 template: '<input type="text" ng-model="data.saleInfo" ng-maxlength="25">',
+
                 title: 'Please Enter Your Yardsale Title',
                 subTitle: 'Please use Less Than 25 Characters',
                 scope: $scope,

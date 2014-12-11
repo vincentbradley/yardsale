@@ -5,7 +5,7 @@
         <h1> </h1>
 
         <body>
-
+        Search: <input ng-model="saleOrder"></br></br>
             <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in americanfork | filter:saleOrder | orderBy: 'date' ">
                 <div style="text-decoration:underline; color:black; font-size: 25px;">{{yardInfo.title}}</div>
                 <div class="photo" style = "PADDING-RIGHT: 5px; PADDING-TOP: 10px; float:left "><img src="{{yardInfo.picture}}" height="100" width="100"></div>

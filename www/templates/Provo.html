@@ -5,8 +5,15 @@
         <h1> </h1>
 
         <body>
+
+
+
+
         <!-- Needs ng repeat-->
         <ion-list id="sales">
+
+            Search: <input ng-model="saleOrder"></br></br>
+
             <ion-item a href="#/tab/yardsaleDetails" ng-repeat="yardInfo in provo | filter:saleOrder | orderBy: 'date' " >
 
                 <div style="text-decoration:underline; color:black; font-size: 25px;">{{yardInfo.title}}</div>
