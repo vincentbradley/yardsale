@@ -18,8 +18,29 @@
         "title": "Yardsale",
         "address": "1600N 1000W",
         "date": "December 12, 2014"
-    }
+    },
 
+    {
+        "picture":"img/salePictures/pic1.jpg",
+        "title": "Items for Cheap",
+        "address":"603 South 193 East",
+        "date": "December 1, 2014"
+
+    },
+
+    {
+        "picture":"img/salePictures/images.jpeg",
+        "title": "First Come First Serve",
+        "address": "500 South State",
+        "date": "December 11, 2014"
+    },
+
+    {
+        "picture":"img/salePictures/pic3.jpeg",
+        "title": "Dvds Everywhere!",
+        "address": "198 North 196 West",
+        "date": "December 16, 2014"
+    }
 
 
 
